@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="CRY Music Media — Global Music Distribution">
+  <defs>
+    <linearGradient id="ogBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A0A1A"/>
+      <stop offset="50%" stop-color="#120A2E"/>
+      <stop offset="100%" stop-color="#0A0A1A"/>
+    </linearGradient>
+    <radialGradient id="ogGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7C5CFF" stop-opacity="0.6"/>
+      <stop offset="60%" stop-color="#22D3EE" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ogGradText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="50%" stop-color="#67E8F9"/>
+      <stop offset="100%" stop-color="#86EFAC"/>
+    </linearGradient>
+    <linearGradient id="ogBars" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#7C5CFF"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <radialGradient id="ogCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#C4B5FD"/>
+      <stop offset="100%" stop-color="#7C5CFF"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#ogBg)"/>
+  <circle cx="600" cy="315" r="420" fill="url(#ogGlow)"/>
+
+  <!-- Decorative rings -->
+  <g fill="none" stroke="url(#ogGradText)" stroke-width="2" opacity="0.4">
+    <circle cx="200" cy="315" r="120"/>
+    <circle cx="200" cy="315" r="80"/>
+    <circle cx="200" cy="315" r="40"/>
+    <circle cx="1000" cy="315" r="140"/>
+    <circle cx="1000" cy="315" r="100"/>
+  </g>
+
+  <!-- Center icon mark: sound orbit -->
+  <g transform="translate(540, 150)">
+    <rect width="120" height="120" rx="28" fill="#070A18" stroke="url(#ogGradText)" stroke-width="3"/>
+    <circle cx="60" cy="60" r="44" fill="none" stroke="url(#ogGradText)" stroke-width="3.4" stroke-linecap="round" stroke-dasharray="276" stroke-dashoffset="68"/>
+    <circle cx="60" cy="60" r="8" fill="url(#ogCore)"/>
+    <g fill="url(#ogBars)">
+      <rect x="36" y="58" width="6.8" height="16" rx="3.4"/>
+      <rect x="48" y="48" width="6.8" height="36" rx="3.4"/>
+      <rect x="60" y="42" width="6.8" height="48" rx="3.4"/>
+      <rect x="72" y="54" width="6.8" height="24" rx="3.4"/>
+      <rect x="84" y="62" width="6.8" height="12" rx="3.4"/>
+    </g>
+  </g>
+
+  <text x="600" y="380" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="84" font-weight="900" fill="#FFFFFF" letter-spacing="-2">CRY Music Media</text>
+  <text x="600" y="440" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="500" fill="url(#ogGradText)" letter-spacing="6">GLOBAL MUSIC DISTRIBUTION</text>
+  <text x="600" y="520" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="400" fill="#A1A1AA">Distribute your sound to 180+ platforms worldwide.</text>
+  <text x="600" y="560" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="500" fill="#71717A" letter-spacing="2">CRY MUSIC MEDIA LTD.  ·  LONDON, UK</text>
+</svg>

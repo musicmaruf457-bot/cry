@@ -1,0 +1,13 @@
+{
+  "name": "CRY Music Media",
+  "short_name": "CRY Music",
+  "description": "Global music distribution, rights and royalty infrastructure for independent artists.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#03050F",
+  "theme_color": "#03050F",
+  "icons": [
+    { "src": "/brand/favicon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "/brand/logo-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

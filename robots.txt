@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Private dashboard areas
+Disallow: /dashboard/
+Disallow: /login
+Disallow: /signup
+Disallow: /api/
+
+Sitemap: https://crydigitalmusic.com/sitemap.xml

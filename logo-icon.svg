@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="cryOrbit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="50%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+    <linearGradient id="cryBars" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#7C5CFF"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <radialGradient id="cryCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#C4B5FD"/>
+      <stop offset="100%" stop-color="#7C5CFF"/>
+    </radialGradient>
+  </defs>
+  <circle cx="32" cy="32" r="22" fill="none" stroke="url(#cryOrbit)" stroke-width="2.6" stroke-linecap="round" stroke-dasharray="138" stroke-dashoffset="34"/>
+  <circle cx="32" cy="32" r="4" fill="url(#cryCore)"/>
+  <g fill="url(#cryBars)">
+    <rect x="20" y="29" width="3.4" height="8" rx="1.7"/>
+    <rect x="26" y="24" width="3.4" height="18" rx="1.7"/>
+    <rect x="32" y="21" width="3.4" height="24" rx="1.7"/>
+    <rect x="38" y="27" width="3.4" height="12" rx="1.7"/>
+    <rect x="44" y="31" width="3.4" height="6" rx="1.7"/>
+  </g>
+</svg>
